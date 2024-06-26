@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BomBolo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/bolfav.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="logo"><img src="imagens/bolofav2.png" alt="logotipo"></div>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="projeto.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="pagina_prod.html">
+                        Produtos
+                    </a>
+                </li>
+                <li>
+                    <a href="pagina_cont.html">
+                        Contato
+                    </a>
+                </li>
+                <li>
+                    <a href="pagina_nossotrab.html">
+                        Nosso Trabalho
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="slide">
+            <div class="meuslide fade" style="display: block;">
+                <div class="txt">
+                    <h1>Bolo com Cobertura</h1>
+                    <p>Experimente esse delícia.</p>
+                </div>
+                <div class="img"><img src="imagens/bolo_chocolate400.jpg" alt="img1"></div>
+
+                <div class="mais">
+                    <a href="pagina_prod.html" class="mais">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="meuslide fade">
+                <div class="txt">
+                    <h1>Bolo de Festa</h1>
+                    <p>Para datas especiais.</p>
+                </div>
+                <div class="img">
+                    <img src="imagens/bolo_festa400.jpg" alt="img2">
+                </div>
+
+                <div class="mais">
+                    <a href="pagina_prod.html" class="mais">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="meuslide fade">
+                <div class="txt">
+                    <h1>Bolo Caseiro</h1>
+                    <p>Venha saborear a diferença.</p>
+                </div>
+                <div class="img">
+                    <img src="imagens/bolo_caseiro400.jpg" alt="img3">
+                </div>
+
+                <div class="mais">
+                    <a href="pagina_prod.html" class="mais">Ver mais</a>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- slide setas -->
+        <a class="prev" onclick="maisSlides(-1)">&#10094</a>
+        <a class="next" onclick="maisSlides(1)">&#10095</a>
+
+        <!-- bolinhas -->
+        <div class="bolasbox" style="text-align: center;">
+            <span class="bola" onclick="atualSlides(1)"></span>
+            <span class="bola" onclick="atualSlides(2)"></span>
+            <span class="bola" onclick="atualSlides(3)"></span>
+        </div>
+        <h2 class="titulo">Um Pouco sobre nossa história</h2>
+        <div class="container">
+            <div class="text">
+                <p class="sobre">Célia já estão no mundo da Confeitaria há 25 anos, produzindo deliciosos bolos e
+                    doces que são vendidos em sua confeitaria e em eventos em São Paulo.
+                <p class="sobre">Buffet em Domicílio foi uma ideia que deu muito certo, levando a organização,
+                    barraquinhas, doces e salgados para as casas dos paulistas. </p>
+                <p class="sobre">Novidades e novas receitas podem ser vista aqui no site ou nas redes sociais, são
+                    delícias irresistíveis, que fica difícil dizer qual é a mais gostoso ou escoher qual provar
+                    primeiro. </p>
+                <p class="sobre">Leve a Confeitaria BomBolo para sua casa ou passe na Confeitaria localizada no Centro
+                    de Guarulhos para conhecer a grande variedade de bolos.</p>
+            </div>
+            <div class="image">
+                <img src="imagens/mulher600.jpg" alt="mulher">
+            </div>
+        </div>
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contatos">
+                    <h2 class="redes">Redes Sociais</h2>
+                    <div id="footer_midia">
+                        <a href="https://api.whatsapp.com/send?phone=551194132158" target="_blank" class="link"><img
+                                src="imagens/whatssap.png" alt="whatssap"></a>
+
+                        <a href="https://web.facebook.com/" target="_blank"
+                            class="link"><img src="imagens/facebook.png" alt="facebbok"></a>
+
+                        <a href="https://www.instagram.com/" target="_blank"
+                            class="link"><img src="imagens/instagram.png" alt="instagram"></a>
+                    </div>
+                </div>
+
+                <ul class="footer_link">
+                    <li>
+                        <h2>Páginas</h2>
+                    </li>
+                    <li><a href="projeto.html">Home</a></li>
+                    <li><a href="pagina_prod.html">Produtos</a></li>
+                    <li><a href="pagina_cont.html">Contato</a></li>
+                    <li><a href="pagina_nossotrab.html">Nosso Trabalho</a></li>
+                </ul>
+
+                <ul class="footer_link">
+                    <li>
+                        <h2>Onde Estamos</h2>
+                    </li>
+                    <li><a href="https://www.google.com.br/maps/place/R.+For%C3%A7a+P%C3%BAblica,+89+-+Centro,+Guarulhos+-+SP,+07012-030/@-23.4728642,-46.5336626,17.08z/data=!4m6!3m5!1s0x94cef55f34cd4687:0x5ce08012e3400601!8m2!3d-23.4728015!4d-46.5308076!16s%2Fg%2F11c22yl9wc"
+                            target="_blank">Rua: Força Pública, 89,<br /> Centro Guarulhos - SP</a></li>
+                    <li>Tel: 11 2485-0103</li>
+                </ul>
+
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
